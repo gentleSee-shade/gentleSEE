@@ -9,7 +9,7 @@ export const AboutMe: React.FC = () => {
       detail: 'BSc Logistics & Supply Chain Management',
     },
     {
-      institution: 'KNUST YES Scholar',
+      institution: 'KENNEDY-LUGAR YES Scholar',
       detail: '10 months',
     },
     {

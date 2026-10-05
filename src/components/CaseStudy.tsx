@@ -171,7 +171,19 @@ export const CaseStudy: React.FC<CaseStudyProps> = ({
                     className="inline-flex items-center gap-2 px-5 py-3 bg-[#142B4A] hover:bg-[#111111] text-white text-xs uppercase tracking-[0.12em] font-semibold transition-colors rounded-xs focus:outline-none focus-visible:ring-2 focus-visible:ring-[#142B4A]"
                   >
                     <span>{sections.artifactLink.label}</span>
-                    <span aria-hidden="true">↗</span>
+                    <span aria-hidden="true">
+                      <svg
+                        className="w-3 h-3"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M7 17 17 7M8 7h9v9" />
+                      </svg>
+                    </span>
                   </a>
                 </div>
               )}

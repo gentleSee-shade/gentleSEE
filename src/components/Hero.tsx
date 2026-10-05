@@ -45,14 +45,8 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5 relative flex items-end justify-center lg:justify-end">
             <div className="relative w-full max-w-[420px] sm:max-w-[460px] lg:max-w-none flex items-end justify-center">
               <div
-                className="w-full relative overflow-hidden"
-                style={{
-                  height: 'clamp(420px, 48vw, 620px)',
-                  maskImage:
-                    'linear-gradient(to right, transparent, black 12%, black 100%)',
-                  WebkitMaskImage:
-                    'linear-gradient(to right, transparent, black 12%, black 100%)',
-                }}
+                className="hero-portrait w-full relative overflow-hidden"
+                style={{ height: 'clamp(420px, 48vw, 620px)' }}
               >
                 {!imageError ? (
                   <img

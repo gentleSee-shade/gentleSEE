@@ -7,6 +7,9 @@ export const Skills: React.FC = () => {
       items: [
         'AI-assisted development',
         'Python',
+        'HTML',
+        'CSS',
+        'JavaScript',
         'Product design',
         'Graphic design',
         'Web development',

@@ -94,7 +94,7 @@ export const projectsData: Project[] = [
     subtitle: "Independent exploration of critical thinking",
     type: "Research",
     image: "assets/08-Critical-thinking-project-visual.png",
-    alt: "Critical Thinking Study visual showing printed research paper pages, notebook, and pen",
+    alt: "Critical Thinking Study visual showing printed research paper pages, a notebook, pen, and laptop",
     description: "An academic research exploration into critical thinking, its barriers, its role in development, and possible pathways forward.",
     caseStudyUrl: "#/work/critical-thinking",
     documentUrl: "assets/critical-thinking-paper.pdf",
